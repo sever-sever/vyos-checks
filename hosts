@@ -1,0 +1,10 @@
+[vyos_hosts]
+r11
+
+[vyos_hosts:vars]
+ansible_python_interpreter=/usr/bin/python2
+ansible_user=vyos
+ansible_ssh_pass=superpass
+ansible_network_os=vyos
+ansible_connection=network_cli
+
